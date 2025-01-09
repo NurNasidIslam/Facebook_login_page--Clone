@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1075px) {
+	#left h2 {
+		font-size: 24px;
+        line-height: 28px;
+        width: auto;
+	}
+
+	#left {
+		width: 400px;
+	}
+
+	#content {
+		height: 496px;
+        margin: 0 40px;
+        width: auto;
+	}
+
+	footer {
+		margin: 0 40px;
+        width: auto;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#content {
+		display: flex;
+        flex-direction: column;
+        text-align: center;
+	}
+
+	#body {
+		padding-bottom: 164px;
+        padding-top: 20px;
+        height: 720px;
+	}
+
+	#left img {
+		padding: 0 0 20px 0;
+	}
+
+	#left h2 {
+		padding: 0;
+	}
+
+	#left {
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	#right {
+		margin: 0 auto;
+	}
+}

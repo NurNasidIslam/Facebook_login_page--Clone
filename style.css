@@ -1,0 +1,283 @@
+*, *::after, *::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+
+}
+
+body, html {
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.34;
+	color: #1c1e21;
+	min-width: 475px;
+}
+
+a {
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#body {
+	background-color: #F2F4F7;
+	padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+#content {
+	margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    display: flex;
+    max-width: 980px;
+    justify-content: space-between;
+}
+
+img {
+	width: 320px;
+	margin: -28px;
+	padding: 112px 0 16px;
+}
+
+#left h2 {
+    width: 500px;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    display: inline-block;
+    color: #1c1e21;
+    padding: 0 0 20px;
+}
+
+#left {
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+}
+
+#right {
+	display: inline-block;
+    vertical-align: top;
+    height: 496px;
+    width: 396px;
+}
+
+#right .form {
+	padding-bottom: 24px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%), 0px 8px 16px rgb(0 0 0 / 10%);
+    margin: 40px 0 0;
+}
+
+.form .one {
+	display: inline-block;
+    margin: auto;
+    padding: 6px 0;
+    font-size: 17px;
+    width: 364px;
+}
+
+.form input {
+	font-family: inherit;
+	border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 364px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 52px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.form input:focus {
+	border-color: #0866ff;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #0866ff;
+    outline: none !important;
+}
+
+.form .two {
+	padding-top: 10px;
+}
+
+
+.form .two button {
+	font-family: arial, sans-serif;
+	background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+	cursor: pointer;
+	color:#fff;
+	font-weight: bold;
+}
+
+.form .two button:hover {
+	background-color: #1877f2;
+}
+
+.fp {
+	margin-top: 16px;
+}
+
+input::placeholder {
+	color:  #90949c;
+}
+
+.form a {
+	font-family:inherit;
+	color: #0866ff;
+	font-size: 14px;
+	font-weight: 500;
+
+}
+
+.line {
+	align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.fbb {
+	padding-top: 6px;
+}
+
+.form .fbb button {
+	font-family: inherit;
+	border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form .fbb button:hover {
+	background-color: #36a420;
+}
+
+#right .link {
+	margin-top: 28px;
+	text-align: center;
+}
+
+#right .link {
+	color:  #1c1e21;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#right .link a {
+	color: #1c1e21;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+#footer {
+	padding-top: 20px;
+}
+
+footer {
+	color: #737373;
+    margin: 0 auto;
+    width: 982px;
+}
+
+#one a, #two a {
+	color: #8a8d91;
+	font-size: 12px;
+	padding-left: 10px;
+	vertical-align: top;
+	border-width: 0 0 0 1px;
+    display: inline-block;
+}
+
+#two a {
+	padding-left: 18px;
+}
+
+#one {
+	align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8px;
+}
+
+#one a:first-child {
+	padding: 0;
+}
+
+#one a i {
+	border: 1px solid;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 8px;
+    text-align: center;
+    text-shadow: none;
+    height: 18px;
+    line-height: 18px;
+    position: relative;
+    vertical-align: middle;
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    color: #636A79;
+}
+
+#one a i:hover {
+	background-color:#ebedf0;
+}
+
+#two {
+	line-height: 1.6;
+    margin-left: -19px;
+}
+
+.curve {
+	border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+
+#two a .ac {
+	background-image: url(fbroll.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-position: -21px -35px;
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+}
+
+footer span {
+	font-family: inherit;
+	font-size: 11px;
+	color: #737373;
+}
+
+footer .copy {
+	margin: 20px 0;
+}
+
+
